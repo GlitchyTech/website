@@ -1,0 +1,95 @@
+<!-- Developed by Novaur. -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Glitchy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="./resources/style.css">
+<link rel="stylesheet" media="all" href="./resources/theme.css">
+
+<!-- Primary Meta Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="./resources/GTY.ico">
+<meta name="title" content="Glitchy" />
+<meta name="description" content="Your tech. Your rules." />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://glitchy.tech" />
+<meta property="og:title" content="Glitchy" />
+<meta property="og:description" content="Your tech, your rules." />
+<meta property="og:image" content="../resources/GTY2.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://glitchy.tech" />
+<meta property="twitter:title" content="Glitchy" />
+<meta property="twitter:description" content="Your tech, your rules." />
+<meta property="twitter:image" content="./resources/GTY2.png" />
+</head>
+<body>
+    <nav role="navigation">
+      <div id="menuToggle">
+        
+        <input type="checkbox" id="menuCheckbox" />
+        
+        
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        
+        <ul id="menu">
+          
+          <li>
+            <a href="./index.html">
+              <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+            </a>
+          </li>
+          <li>
+            <a href="./info.html">
+              <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+            </a>
+          </li>
+          
+          <!--<li><label for="menuCheckbox"><a href="https://youtube.com/@black.espresso">Our YouTube</a></label></li>-->
+          <li><label for="menuCheckbox"><a href="./matrix.html">Matrix</a></label></li>
+          
+          <li>
+            <a href="#" target="_blank" id="getmail">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      <main>
+      <script>
+        var getmaily = document.getElementById('getmail');
+        getmaily.onclick = givemail;
+
+        function givemail() {
+          alert("Feel free to email us via officialglitchy4@gmail.com!\n\nPlease do not send anything harmful, mean, or unimportant! Thanks! :)");
+          return false;
+        }
+
+        var products = document.getElementById('productions');
+        products.onclick = productions;
+
+        function productions() {
+          alert("A page of a list of our productions will be added soon! Stay tuned :)");
+          // window.location.href="https://google.com/";
+          return false;
+        } 
+      </script>
+
+      <div id="main">
+           <img style="margin: auto auto 30px; height: auto; min-width: 15%; max-width: 95%;" class="center2" src="./resources/glitchy-banner.png" />
+        <h1 class="banner-head">WELCOME to the Glitchy website!</h1>
+        <div style="margin-inline: auto;">
+            <h3 class="center" style="right: 85px;">Your tech, your rules.</h3>
+            <br>
+            <a href="./matrix.html" id="nova-teaser">Check out our current tech in development!</a>
+        </div>
+     </div>
+</main>
+</body>
+</html>

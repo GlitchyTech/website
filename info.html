@@ -1,0 +1,137 @@
+<!-- Developed by Novaur. :) -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="../resources/style.css">
+<link rel="stylesheet" media="all" href="./resources/theme.css">
+
+<!-- Primary Meta Tags -->
+<title>Glitchy - Info</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="./resources/style.css">
+<link rel="stylesheet" media="all" href="./resources/theme.css">
+
+<!-- Primary Meta Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="./resources/GTY.ico">
+<meta name="title" content="Glitchy - Info" />
+<meta name="description" content="Your tech. Your rules." />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://glitchy.tech" />
+<meta property="og:title" content="Glitchy - Info" />
+<meta property="og:description" content="Your tech, your rules." />
+<meta property="og:image" content="./resources/GTY2.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://glitchy.tech" />
+<meta property="twitter:title" content="Glitchy - Info" />
+<meta property="twitter:description" content="Your tech, your rules." />
+<meta property="twitter:image" content="./resources/GTY2.png" />
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" id="menuCheckbox" />
+          
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <li>
+              <a href="./index.html">
+                <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+              </a>
+            </li>
+            
+            <!--<li><label for="menuCheckbox"><a href="https://youtube.com/@black.espresso">Our YouTube</a></label></li>-->
+            <li><label for="menuCheckbox"><a href="./matrix.html">Matrix</a></label></li>
+            
+            <li>
+              <a href="#" target="_blank" id="getmail">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <script>
+        var getmaily = document.getElementById('getmail');
+        getmaily.onclick = givemail;
+
+        function givemail() {
+          alert("Feel free to email us via officialglitchy4@gmail.com!\n\nPlease do not send anything harmful, mean, or unimportant! Thanks! :)");
+          return false;
+        }
+
+        var products = document.getElementById('productions');
+        products.onclick = productions;
+
+        function productions() {
+          alert("A page of a list of our productions will be added soon! Stay tuned :)");
+          // window.location.href="https://google.com/";
+          return false;
+        } 
+    </script>
+    <main>
+        <img class="center2" src="./resources/GTY2.png" height="100" width="100">
+        <h1 class="center" id="welcome">Info</h1>
+        <br>
+        <br>
+        <div style="margin-inline: auto">
+            <p class="center">
+            Glitchy is a private organization of tech enthusiasts.
+            <br>
+            <br>
+            At Glitchy, you have choice. With everything we provide to you, you always have free choice to customize and personalize your electronics however you like. 
+            <br>
+            <br>
+            To us, the right to repair and easy customizable freedom is important and we must respect that for every person.
+            <br>
+            <br>
+            As of now, Glitchy is only just getting started. However, we can't wait to show the world our ambitious projects!
+            </p>
+        </div>
+        <br>
+        <br>
+        <h2 class="center">
+        <u>Remember. Your tech, your rules.</u>
+        </h2>
+
+        <br>
+        <br>
+
+        <style>
+            a#thx {
+                display: block;
+                text-align: center;
+                width: 150px;
+                margin: 0px auto;
+                padding: 20px;
+                color: white;
+                font-family: GlacialIndifference;
+                text-transform: uppercase;
+                border: 2px solid hsl(105, 100%, 50%);
+                background-color: hwb(108 12% 0% / 0.357);
+                text-decoration: none;
+                border-radius: 10px;
+            }
+        </style>
+
+        <a href="./index.html" id="thx">OK!</a>
+
+        <br>
+        <br>
+        <footer>
+        <h3 class="center">(C) 2025 <a style="color: white; text-decoration: none;" href="">Glitchy</a></h3>
+        </footer>
+    </main>
+</body>
+</html>
